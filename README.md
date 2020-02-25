@@ -1,4 +1,4 @@
-# Time-Series Data & Preditions
+# Time-Series Data & Predictions
 
 ## 1. Overview
 
