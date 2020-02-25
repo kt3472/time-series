@@ -2,8 +2,11 @@
 
 ## 1. Overview
 
+* Anything programming language and evironment
 
-* 다양한 시계열 데이터를 수집하고, 다양한 머신러닝 모델로 예측하기
+* Anything time series data set
+
+* Anything machine learning Models
 
 
 ## 2. Data Analysis & Predictions
