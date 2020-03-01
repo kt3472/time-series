@@ -2,24 +2,22 @@
 
 ## 1. Overview
 
-* Anything programming language and evironment
-
-* Anything time series data set
-
-* Anything machine learning Models
+* Predicions of Time-Series data with Machine Learning Models
 
 
 ## 2. Data Analysis & Predictions
 
-* 비트코인 가격 예측 모델링(2019.10)
+* 암호화폐 가격 예측 모델링(2019.12)
 
-  +
-  +
+  + Data Set : 2018년 ~ 2019년 Bitcoin, Ethereum의 일자별 종가 데이터(출처 : coinmarketcap.com)
+  + Environment : python 3.6 / tensorflow, pandas, numpy, matplotlib
+  + Models : LTSM, MonteCarlo simulation
   
 * 삼성전자 주가 예측 모델링(2019.12)
 
-  +
-  +
+  + Data Set : 2018년 ~ 2019년 Bitcoin, Ethereum의 일자별 종가 데이터(출처 : coinmarketcap.com)
+  + Environment : python 3.6 / tensorflow, pandas, numpy, matplotlib
+  + Models : LTSM, MonteCarlo simulation
  
 * "류현진" Google Trends 예측 모델링(2020.01)
 
