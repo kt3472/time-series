@@ -38,6 +38,7 @@
 ## 3. References
 
 * https://github.com/mborysiak/Time-Series-Forecasting-with-ARIMA-and-LSTM
+* https://github.com/huseinzol05/Stock-Prediction-Models
 
 
 
