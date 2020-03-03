@@ -19,7 +19,7 @@
   + Environment : python 3.6 / tensorflow, pandas, numpy, matplotlib
   + Models : LTSM, MonteCarlo simulation
  
-* "류현진" Google Trends 예측 모델링(2020.01)
+* "국세청" Naver Trends 예측 모델링(2020.01)
 
   +
   +  
