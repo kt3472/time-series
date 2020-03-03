@@ -24,10 +24,11 @@
   +
   +  
 
-* "Virus" Naver Trends 예측 모델링(2020.02)
+* "Virus" Google Trends 예측 모델링(2020.02)
 
-  +
-  +
+  + Data Set : 2004년 1월 ~ 2020년 1월 "Virus" 단어의 구글 검색 트랜드(월간, 출처 : https://trends.google.co.kr/ )
+  + Environment : python 3.6 / statemodels, scipy, pandas, numpy, matplotlib
+  + Models : ARIMA
 
 * 서울 아파트가격 예측 모델링(Updating)
 
