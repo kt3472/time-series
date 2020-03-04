@@ -19,13 +19,13 @@
   + Environment : python 3.6 / tensorflow, pandas, numpy, matplotlib
   + Models : LTSM, MonteCarlo simulation
  
-* "국세청" Naver Trends 예측 모델링
+* Naver Trends 예측 모델링(트렌드단어:"국세청")
 
   + Data Set : 2004년 1월 ~ 2020년 1월 월간 "국세청" 단어의 네이버 검색 트랜드 데이터(출처 : https://trends.google.co.kr/)
   + Environment : python 3.6 / statemodels, scipy, pandas, numpy, matplotlib
   + Models : SARIMA
 
-* "virus" Google Trends 예측 모델링
+* Google Trends 예측 모델링(트렌드단어:"Virus")
 
   + Data Set : 2004년 1월 ~ 2020년 1월 월간 "Virus" 단어의 구글 검색 트랜드 데이터(출처 : https://trends.google.co.kr/)
   + Environment : python 3.6 / statemodels, scipy, pandas, numpy, matplotlib
