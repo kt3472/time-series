@@ -21,9 +21,9 @@
  
 * Naver Trends 예측 모델링(트렌드단어:"국세청")
 
-  + Data Set : 2004년 1월 ~ 2020년 1월 월간 "국세청" 단어의 네이버 검색 트랜드 데이터(출처 : https://trends.google.co.kr/)
-  + Environment : python 3.6 / statemodels, scipy, pandas, numpy, matplotlib
-  + Models : SARIMA
+  + Data Set : 2016년 1월 ~ 2020년 2월 월간 "국세청" 단어의 네이버 검색 트랜드 데이터(출처 : https://trends.google.co.kr/)
+  + Environment : python 3.6 / statemodels, pandas, numpy, matplotlib
+  + Models : SARIMAX
 
 * Google Trends 예측 모델링(트렌드단어:"Virus")
 
