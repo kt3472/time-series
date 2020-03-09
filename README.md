@@ -17,7 +17,7 @@
 
   + Data Set : 2019년 10월 ~ 2020년 3월 상장기업 관련 신문기사/일자별 종가 데이터()  
   + Environment : python 3.6 / nltk, googletrans, tensorflow, beautifulsoup, pandas, numpy, matplotlib
-  + Process : 한글 종목기사 수집(Naver금융) -> 영어로 번역(GoogleTrans) -> 긍정/부정 판단(nltk)
+  + Process : 한글 종목기사 수집(Naver금융) -> 영어로 번역(GoogleTrans) -> 긍정/부정 판단(NLTK)
   + Models : CNN
  
 * [Naver Trends 예측 모델링(트렌드단어:"국세청")](https://github.com/kt3472/time-series/tree/master/naver_trends_prediction)
