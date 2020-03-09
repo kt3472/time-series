@@ -32,7 +32,7 @@
   + Environment : python 3.6 / statemodels, scipy, pandas, numpy, matplotlib
   + Models : ARIMA
 
-* 국내 Covid-19 확진자 추이 예측 모델링
+* [국내 Covid-19 데이터 분석](https://github.com/kt3472/time-series/tree/master/covid19_south_korea)
 
   +
   +
