@@ -1,4 +1,4 @@
-id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,infected_by,contact_number,confirmed_date,released_date,deceased_date,state
+patient_id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,infected_by,contact_number,confirmed_date,released_date,deceased_date,state
 1,female,1984,China,filtered at airport,,,visit to Wuhan,1,,45,2020-01-20,2020-02-06,,released
 2,male,1964,Korea,filtered at airport,,,visit to Wuhan,1,,75,2020-01-24,2020-02-05,,released
 3,male,1966,Korea,capital area,,,visit to Wuhan,1,,16,2020-01-26,2020-02-12,,released
@@ -35,9 +35,8 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 34,male,1996,Korea,Daegu,,Shincheonji Church,,,,,2020-02-18,,,isolated
 35,female,1994,Korea,Daegu,,Shincheonji Church,,,,,2020-02-18,,,isolated
 36,female,1972,Korea,Daegu,,Shincheonji Church,,,,,2020-02-18,,,isolated
-37,male,1973,Korea,Gyeongsangbuk-do,,,,,,,2020-02-18,2020-02-26,,released
 38,female,1963,Korea,Daegu,1,,,,,,2020-02-18,,2020-02-23,deceased
-39,female,1959,Korea,Gyeongsangbuk-do,,Shincheonji Church,,,,,2020-02-18,2020-03-03,,released
+39,female,1959,Korea,Gyeongsangbuk-do,,Shincheonji Church,,,,31,2020-02-18,2020-03-03,,released
 40,male,1943,Korea,capital area,,,,,,8,2020-02-19,,,isolated
 41,female,1951,Korea,Gyeongsangbuk-do,,Shincheonji Church,,,,,2020-02-19,,,isolated
 42,female,1991,Korea,Daegu,,Shincheonji Church,,,,,2020-02-19,,,isolated
@@ -65,7 +64,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 64,female,1961,Korea,,,,,,,,2020-02-19,,,isolated
 65,female,1970,Korea,Daegu,,,,,,,2020-02-19,2020-02-27,,released
 66,male,1998,Korea,Gyeongsangbuk-do,,Shincheonji Church,visit to Daegu,,,,2020-02-19,,,isolated
-67,female,1990,Korea,Gyeongsangbuk-do,,,,,,,2020-02-20,,,isolated
+67,female,1990,Korea,Gyeongsangbuk-do,,,,,,,2020-02-19,,,isolated
 68,female,1964,Korea,,,,,,,,2020-02-20,,,isolated
 69,male,1991,Korea,,,,,,,,2020-02-20,,,isolated
 70,female,1972,Korea,,,,,,,,2020-02-20,,,isolated
@@ -97,11 +96,11 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 96,,,Korea,,,,,,,,2020-02-20,,,isolated
 97,,,Korea,,,,,,,,2020-02-20,,,isolated
 98,,,Korea,,,,,,,,2020-02-20,,,isolated
-99,, ,Korea,,,,,,,,2020-02-20,,,isolated
+99,,,Korea,,,,,,,,2020-02-20,,,isolated
 100,,,Korea,,,,,,,,2020-02-20,,,isolated
 101,,,Korea,,,,,,,,2020-02-20,,,isolated
 102,,,Korea,,,,,,,,2020-02-20,,,isolated
-103,,,,,,,,,,,,,,
+103,,,Korea,,,,,,,,2020-02-20,,,isolated
 104,male,1957,Korea,Gyeongsangbuk-do,1,Cheongdo Daenam Hospital,,,,,2020-02-20,,2020-02-19,deceased
 105,female,1965,Korea,Gyeongsangbuk-do,,Shincheonji Church,visit to Daegu,,,,2020-02-21,,,isolated
 106,female,1991,Korea,Gyeongsangbuk-do,,Shincheonji Church,visit to Daegu,,,,2020-02-21,,,isolated
@@ -220,7 +219,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 219,female,1972,Korea,,,,,,,,2020-02-22,,,isolated
 220,male,1997,Korea,,,,,,,,2020-02-22,,,isolated
 221,female,1969,Korea,,,,,,,,2020-02-22,,,isolated
-222,female,1998,Korea,Jeju-do,,,visit to Daegu,,,,2020-02-22,,,isolated
+222,female,1998,Korea,Jeju-do,,,visit to Daegu,,,,2020-02-22,2020-03-07,,released
 223,male,1983,Korea,,,,,,,,2020-02-22,,,isolated
 224,female,1998,Korea,,,,,,,,2020-02-22,,,isolated
 225,female,1987,Korea,,,,,,,,2020-02-22,,,isolated
@@ -388,7 +387,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 387,female,1960,Korea,Gyeongsangbuk-do,,Pilgrimage,pilgrimage to Israel,,,,2020-02-22,,,isolated
 388,female,1960,Korea,Gyeongsangbuk-do,,Pilgrimage,pilgrimage to Israel,,,,2020-02-22,,,isolated
 389,female,1980,Korea,,,,,,,,2020-02-22,,,isolated
-390,,,Korea,,,,,,,,2020-02-22,,,isolated
+390,female,1993,Korea,Gyeongsangbuk-do,,,contact with patient in Daegu,,,,2020-02-22,,,isolated
 391,male,1937,Korea,Gyeongsangbuk-do,1,,,,,,2020-02-22,,2020-03-05,deceased
 392,male,1966,Korea,capital area,,Shincheonji Church,,,,,2020-02-22,,,isolated
 393,,,Korea,,,,,,,,2020-02-22,,,isolated
@@ -583,7 +582,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 582,,,Korea,,,,,,,,2020-02-23,,,isolated
 583,,,Korea,,,,,,,,2020-02-23,,,isolated
 584,,,Korea,,,,,,,,2020-02-23,,,isolated
-585,,,Korea,,,,,,,,2020-02-23,,,isolated
+585,female,1995,Korea,Gyeongsangbuk-do,,,,,,,2020-02-23,,,isolated
 586,,,Korea,,,,,,,,2020-02-23,,,isolated
 587,,,Korea,,,,,,,,2020-02-23,,,isolated
 588,,,Korea,,,,,,,,2020-02-23,,,isolated
@@ -761,7 +760,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 760,male,1986,Korea,capital area,,,,,,,2020-02-24,,,isolated
 761,female,1955,Korea,capital area,,,,,,,2020-02-24,,,isolated
 762,male,1985,Korea,capital area,,,contact with patient,,,,2020-02-24,,,isolated
-763,,,Korea,,,,,,,,2020-02-24,,,isolated
+763,male,1998,Korea,Gyeongsangbuk-do,,,visit to Daegu,,,,2020-02-24,,,isolated
 764,,,Korea,,,,,,,,2020-02-24,,,isolated
 765,,,Korea,,,,,,,,2020-02-24,,,isolated
 766,,,Korea,,,,,,,,2020-02-24,,,isolated
@@ -836,7 +835,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 835,male,1986,Korea,capital area,,Shincheonji Church,contact with patient,,188,,2020-02-25,,,isolated
 836,,,Korea,,,,,,,,2020-02-25,,,isolated
 837,female,1966,Korea,Gyeongsangbuk-do,,,,,,,2020-02-25,,,isolated
-838,,,Korea,,,,,,,,2020-02-25,,,isolated
+838,female,1995,Korea,Gyeongsangbuk-do,,Shincheonji Church,visit to Daegu,,,,2020-02-25,,,isolated
 839,female,,Korea,Gyeongsangbuk-do,,,,,,,2020-02-25,,,isolated
 840,,,Korea,,,,,,,,2020-02-25,,,isolated
 841,,,Korea,,,,,,,,2020-02-25,,,isolated
@@ -857,7 +856,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 856,male,1949,Korea,Gyeongsangbuk-do,,,,,,,2020-02-25,,,isolated
 857,female,1955,Korea,Gyeongsangbuk-do,,,,,,,2020-02-25,,,isolated
 858,female,1968,Korea,Gyeongsangbuk-do,,,,,,,2020-02-25,,,isolated
-859,,,Korea,,,,,,,,2020-02-25,,,isolated
+859,female,1996,Korea,Gyeongsangbuk-do,,Shincheonji Church,visit to Daegu,,,,2020-02-25,,,isolated
 860,,,Korea,,,,,,,,2020-02-25,,,isolated
 861,,,Korea,,,,,,,,2020-02-25,,,isolated
 862,,,Korea,,,,,,,,2020-02-25,,,isolated
@@ -936,7 +935,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 935,female,1960,Korea,capital area,,,contact with patient,,372,,2020-02-25,,,isolated
 936,,,Korea,,,,,,,,2020-02-25,,,isolated
 937,male,1957,Korea,Daegu,,,visit to Daegu,,,,2020-02-25,,,isolated
-938,male,1968,Korea,capital area,,Myungsung church,,,,,2020-02-25,2020-03-03,,released
+938,male,1968,Korea,capital area,,,,,,,2020-02-25,2020-03-03,,released
 939,,,Korea,,,,,,,,2020-02-25,,,isolated
 940,,,Korea,,,,,,,,2020-02-25,,,isolated
 941,,,Korea,,,,,,,,2020-02-25,,,isolated
@@ -975,7 +974,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 974,,,Korea,,,,,,,,2020-02-25,,,isolated
 975,,,Korea,,,,,,,,2020-02-25,,,isolated
 976,,,Korea,,,,,,,,2020-02-25,,,isolated
-977,,,Korea,,,,,,,,2020-02-26,,,isolated
+977,male,1998,Korea,Gyeongsangbuk-do,,,,,,,2020-02-26,,,isolated
 978,,,Korea,,,,,,,,2020-02-26,,,isolated
 979,,,Korea,,,,,,,,2020-02-26,,,isolated
 980,,,Korea,,,,,,,,2020-02-26,,,isolated
@@ -1127,7 +1126,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 1126,,,Korea,,,,,,,,2020-02-26,,,isolated
 1127,,,Korea,,,,,,,,2020-02-26,,,isolated
 1128,,,Korea,,,,,,,,2020-02-26,,,isolated
-1129,male,1963,Korea,capital area,,,,,,,2020-02-26,2020-03-04,,released
+1129,male,1964,Korea,capital area,,,,,,,2020-02-26,2020-03-04,,released
 1130,,,Korea,,,,,,,,2020-02-26,,,isolated
 1131,,,Korea,,,,,,,,2020-02-26,,,isolated
 1132,,,Korea,,,,,,,,2020-02-26,,,isolated
@@ -1222,7 +1221,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 1221,,,Korea,,,,,,,,2020-02-26,,,isolated
 1222,female,1956,Korea,Gyeongsangbuk-do,,,,,,,2020-02-26,,,isolated
 1223,,,Korea,,,,,,,,2020-02-26,,,isolated
-1224,,,Korea,,,,,,,,2020-02-26,,,isolated
+1224,male,1963,Korea,Gyeongsangbuk-do,,,,,,,2020-02-26,,,isolated
 1225,female,1985,Korea,capital area,,,,,,,2020-02-26,,,isolated
 1226,,,Korea,,,,,,,,2020-02-26,,,isolated
 1227,male,1981,Korea,capital area,,,contact with patient,,835,,2020-02-26,,,isolated
@@ -1730,13 +1729,13 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 1729,,,Korea,,,,,,,,2020-02-27,,,isolated
 1730,,,Korea,,,,,,,,2020-02-27,,,isolated
 1731,,,Korea,,,,,,,,2020-02-27,,,isolated
-1732,,,Korea,,,,,,,,2020-02-27,,,isolated
+1732,male,2001,Korea,Gyeongsangbuk-do,,,,,,,2020-02-26,,,isolated
 1733,,,Korea,,,,,,,,2020-02-27,,,isolated
 1734,,,Korea,,,,,,,,2020-02-27,,,isolated
 1735,,,Korea,,,,,,,,2020-02-27,,,isolated
 1736,,,Korea,,,,,,,,2020-02-27,,,isolated
 1737,female,1941,Korea,Gyeongsangbuk-do,,,,,,,2020-02-27,,,isolated
-1738,,,Korea,,,,,,,,2020-02-27,,,isolated
+1738,female,1985,Korea,Gyeongsangbuk-do,,Shincheonji Church,visit to Daegu,,,,2020-02-26,,,isolated
 1739,,,Korea,,,,,,,,2020-02-27,,,isolated
 1740,,,Korea,,,,,,,,2020-02-27,,,isolated
 1741,,,Korea,,,,,,,,2020-02-27,,,isolated
@@ -1794,7 +1793,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 1793,,,Korea,,,,,,,,2020-02-28,,,isolated
 1794,,,Korea,,,,,,,,2020-02-28,,,isolated
 1795,,,Korea,,,,,,,,2020-02-28,,,isolated
-1796,,,Korea,,,,,,,,2020-02-28,,,isolated
+1796,male,1993,Korea,Gyeongsangbuk-do,,Shincheonji Church,,,,,2020-02-27,,,isolated
 1797,,,Korea,,,,,,,,2020-02-28,,,isolated
 1798,female,1982,Korea,capital area,,,,,,,2020-02-28,,,isolated
 1799,,,Korea,,,,,,,,2020-02-28,,,isolated
@@ -2287,7 +2286,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 2286,female,1932,Korea,capital area,,,,,,,2020-02-28,,,isolated
 2287,,,Korea,,,,,,,,2020-02-28,,,isolated
 2288,,,Korea,,,,,,,,2020-02-28,,,isolated
-2289,male,1954,Korea,Daegu,,,,,,,2020-02-28,,2020-03-05,isolated
+2289,male,1954,Korea,Daegu,,,,,,,2020-02-28,,2020-03-05,deceased
 2290,,,Korea,,,,,,,,2020-02-28,,,isolated
 2291,,,Korea,,,,,,,,2020-02-28,,,isolated
 2292,,,Korea,,,,,,,,2020-02-28,,,isolated
@@ -2543,7 +2542,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 2542,,,Korea,,,,,,,,2020-02-29,,,isolated
 2543,,,Korea,,,,,,,,2020-02-29,,,isolated
 2544,,,Korea,,,,,,,,2020-02-29,,,isolated
-2545,,,Korea,,,,,,,,2020-02-29,,,isolated
+2545,male,1982,Korea,Gyeongsangbuk-do,,,visit to Daegu,,,,2020-02-28,,,isolated
 2546,,,Korea,,,,,,,,2020-02-29,,,isolated
 2547,,,Korea,,,,,,,,2020-02-29,,,isolated
 2548,,,Korea,,,,,,,,2020-02-29,,,isolated
@@ -2905,8 +2904,8 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 2904,,,Korea,,,,,,,,2020-02-29,,,isolated
 2905,,,Korea,,,,,,,,2020-02-29,,,isolated
 2906,,,Korea,,,,,,,,2020-02-29,,,isolated
-2907,,,Korea,,,,,,,,2020-02-29,,,isolated
-2908,,,Korea,,,,,,,,2020-02-29,,,isolated
+2907,male,1994,Korea,Gyeongsangbuk-do,,,visit to Daegu,,,,2020-02-29,,,isolated
+2908,female,1967,Korea,,,,,,,,2020-02-29,,,isolated
 2909,,,Korea,,,,,,,,2020-02-29,,,isolated
 2910,,,Korea,,,,,,,,2020-02-29,,,isolated
 2911,,,Korea,,,,,,,,2020-02-29,,,isolated
@@ -2946,7 +2945,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 2945,,,Korea,,,,,,,,2020-02-29,,,isolated
 2946,,,Korea,,,,,,,,2020-02-29,,,isolated
 2947,,,Korea,,,,,,,,2020-02-29,,,isolated
-2948,,,Korea,,,,,,,,2020-02-29,,,isolated
+2948,male,1964,Korea,Gyeongsangbuk-do,,Shincheonji Church,contact with patient,,,,2020-02-29,,,isolated
 2949,,,Korea,,,,,,,,2020-02-29,,,isolated
 2950,,,Korea,,,,,,,,2020-02-29,,,isolated
 2951,,,Korea,,,,,,,,2020-02-29,,,isolated
@@ -2991,7 +2990,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 2990,,,Korea,,,,,,,,2020-02-29,,,isolated
 2991,,,Korea,,,,,,,,2020-02-29,,,isolated
 2992,,,Korea,,,,,,,,2020-02-29,,,isolated
-2993,,,Korea,,,,,,,,2020-02-29,,,isolated
+2993,female,1994,Korea,Gyeongsangbuk-do,,,,,,,2020-02-29,,,isolated
 2994,,,Korea,,,,,,,,2020-02-29,,,isolated
 2995,,,Korea,,,,,,,,2020-02-29,,,isolated
 2996,,,Korea,,,,,,,,2020-02-29,,,isolated
@@ -3548,7 +3547,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 3547,,,Korea,,,,,,,,2020-03-01,,,isolated
 3548,,,Korea,,,,,,,,2020-03-01,,,isolated
 3549,,,Korea,,,,,,,,2020-03-01,,,isolated
-3550,,,Korea,,,,,,,,2020-03-01,,,isolated
+3550,female,1951,Korea,Daegu,,,,,,,2020-03-01,,2020-03-09,deceased
 3551,,,Korea,,,,,,,,2020-03-01,,,isolated
 3552,,,Korea,,,,,,,,2020-03-01,,,isolated
 3553,,,Korea,,,,,,,,2020-03-01,,,isolated
@@ -3576,7 +3575,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 3575,,,Korea,,,,,,,,2020-03-01,,,isolated
 3576,,,Korea,,,,,,,,2020-03-01,,,isolated
 3577,,,Korea,,,,,,,,2020-03-01,,,isolated
-3578,,,Korea,,,,,,,,2020-03-01,,,isolated
+3578,male,1930,Korea,Daegu,,,,,,,2020-03-01,,2020-03-07,deceased
 3579,,,Korea,,,,,,,,2020-03-01,,,isolated
 3580,,,Korea,,,,,,,,2020-03-01,,,isolated
 3581,,,Korea,,,,,,,,2020-03-01,,,isolated
@@ -3912,7 +3911,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 3911,,,Korea,,,,,,,,2020-03-01,,,isolated
 3912,,,Korea,,,,,,,,2020-03-01,,,isolated
 3913,,,Korea,,,,,,,,2020-03-01,,,isolated
-3914,,,Korea,,,,,,,,2020-03-01,,,isolated
+3914,male,1938,Korea,Daegu,1,,,,,,2020-03-01,,2020-03-09,deceased
 3915,,,Korea,,,,,,,,2020-03-01,,,isolated
 3916,,,Korea,,,,,,,,2020-03-01,,,isolated
 3917,,,Korea,,,,,,,,2020-03-01,,,isolated
@@ -4343,7 +4342,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 4342,,,Korea,,,,,,,,2020-03-02,,,isolated
 4343,,,Korea,,,,,,,,2020-03-02,,,isolated
 4344,,,Korea,,,,,,,,2020-03-02,,,isolated
-4345,,,Korea,,,,,,,,2020-03-02,,,isolated
+4345,female,1972,Korea,Jeju-do,,,visit to ooo,,,21,2020-03-02,,,isolated
 4346,,,Korea,,,,,,,,2020-03-02,,,isolated
 4347,,,Korea,,,,,,,,2020-03-02,,,isolated
 4348,,,Korea,,,,,,,,2020-03-02,,,isolated
@@ -5532,7 +5531,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 5531,,,Korea,,,,,,,,2020-03-04,,,isolated
 5532,,,Korea,,,,,,,,2020-03-04,,,isolated
 5533,,,Korea,,,,,,,,2020-03-04,,,isolated
-5534,,,Korea,,,,,,,,2020-03-04,,,isolated
+5534,male,1974,Korea,Jeju-do,,,visit to Daegu,74,,74,2020-03-04,,,isolated
 5535,,,Korea,,,,,,,,2020-03-04,,,isolated
 5536,,,Korea,,,,,,,,2020-03-04,,,isolated
 5537,,,Korea,,,,,,,,2020-03-04,,,isolated
@@ -7194,7 +7193,7 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 7193,,,Korea,,,,,,,,2020-03-08,,,isolated
 7194,,,Korea,,,,,,,,2020-03-08,,,isolated
 7195,,,Korea,,,,,,,,2020-03-08,,,isolated
-7196,,,Korea,,,,,,,,2020-03-08,,,isolated
+7196,male,1945,Korea,Daegu,1,,,,,,2020-03-08,,2020-03-09,deceased
 7197,,,Korea,,,,,,,,2020-03-08,,,isolated
 7198,,,Korea,,,,,,,,2020-03-08,,,isolated
 7199,,,Korea,,,,,,,,2020-03-08,,,isolated
@@ -7381,3 +7380,376 @@ id,sex,birth_year,country,region,disease,group,infection_reason,infection_order,
 7380,,,Korea,,,,,,,,2020-03-08,,,isolated
 7381,,,Korea,,,,,,,,2020-03-08,,,isolated
 7382,,,Korea,,,,,,,,2020-03-08,,,isolated
+7383,,,Korea,,,,,,,,2020-03-09,,,isolated
+7384,,,Korea,,,,,,,,2020-03-09,,,isolated
+7385,,,Korea,,,,,,,,2020-03-09,,,isolated
+7386,,,Korea,,,,,,,,2020-03-09,,,isolated
+7387,,,Korea,,,,,,,,2020-03-09,,,isolated
+7388,,,Korea,,,,,,,,2020-03-09,,,isolated
+7389,,,Korea,,,,,,,,2020-03-09,,,isolated
+7390,,,Korea,,,,,,,,2020-03-09,,,isolated
+7391,,,Korea,,,,,,,,2020-03-09,,,isolated
+7392,,,Korea,,,,,,,,2020-03-09,,,isolated
+7393,,,Korea,,,,,,,,2020-03-09,,,isolated
+7394,,,Korea,,,,,,,,2020-03-09,,,isolated
+7395,,,Korea,,,,,,,,2020-03-09,,,isolated
+7396,,,Korea,,,,,,,,2020-03-09,,,isolated
+7397,,,Korea,,,,,,,,2020-03-09,,,isolated
+7398,,,Korea,,,,,,,,2020-03-09,,,isolated
+7399,,,Korea,,,,,,,,2020-03-09,,,isolated
+7400,,,Korea,,,,,,,,2020-03-09,,,isolated
+7401,,,Korea,,,,,,,,2020-03-09,,,isolated
+7402,,,Korea,,,,,,,,2020-03-09,,,isolated
+7403,,,Korea,,,,,,,,2020-03-09,,,isolated
+7404,,,Korea,,,,,,,,2020-03-09,,,isolated
+7405,,,Korea,,,,,,,,2020-03-09,,,isolated
+7406,,,Korea,,,,,,,,2020-03-09,,,isolated
+7407,,,Korea,,,,,,,,2020-03-09,,,isolated
+7408,,,Korea,,,,,,,,2020-03-09,,,isolated
+7409,,,Korea,,,,,,,,2020-03-09,,,isolated
+7410,,,Korea,,,,,,,,2020-03-09,,,isolated
+7411,,,Korea,,,,,,,,2020-03-09,,,isolated
+7412,,,Korea,,,,,,,,2020-03-09,,,isolated
+7413,,,Korea,,,,,,,,2020-03-09,,,isolated
+7414,,,Korea,,,,,,,,2020-03-09,,,isolated
+7415,,,Korea,,,,,,,,2020-03-09,,,isolated
+7416,,,Korea,,,,,,,,2020-03-09,,,isolated
+7417,,,Korea,,,,,,,,2020-03-09,,,isolated
+7418,,,Korea,,,,,,,,2020-03-09,,,isolated
+7419,,,Korea,,,,,,,,2020-03-09,,,isolated
+7420,,,Korea,,,,,,,,2020-03-09,,,isolated
+7421,,,Korea,,,,,,,,2020-03-09,,,isolated
+7422,,,Korea,,,,,,,,2020-03-09,,,isolated
+7423,,,Korea,,,,,,,,2020-03-09,,,isolated
+7424,,,Korea,,,,,,,,2020-03-09,,,isolated
+7425,,,Korea,,,,,,,,2020-03-09,,,isolated
+7426,,,Korea,,,,,,,,2020-03-09,,,isolated
+7427,,,Korea,,,,,,,,2020-03-09,,,isolated
+7428,,,Korea,,,,,,,,2020-03-09,,,isolated
+7429,,,Korea,,,,,,,,2020-03-09,,,isolated
+7430,,,Korea,,,,,,,,2020-03-09,,,isolated
+7431,,,Korea,,,,,,,,2020-03-09,,,isolated
+7432,,,Korea,,,,,,,,2020-03-09,,,isolated
+7433,,,Korea,,,,,,,,2020-03-09,,,isolated
+7434,,,Korea,,,,,,,,2020-03-09,,,isolated
+7435,,,Korea,,,,,,,,2020-03-09,,,isolated
+7436,,,Korea,,,,,,,,2020-03-09,,,isolated
+7437,,,Korea,,,,,,,,2020-03-09,,,isolated
+7438,,,Korea,,,,,,,,2020-03-09,,,isolated
+7439,,,Korea,,,,,,,,2020-03-09,,,isolated
+7440,,,Korea,,,,,,,,2020-03-09,,,isolated
+7441,,,Korea,,,,,,,,2020-03-09,,,isolated
+7442,,,Korea,,,,,,,,2020-03-09,,,isolated
+7443,,,Korea,,,,,,,,2020-03-09,,,isolated
+7444,,,Korea,,,,,,,,2020-03-09,,,isolated
+7445,,,Korea,,,,,,,,2020-03-09,,,isolated
+7446,,,Korea,,,,,,,,2020-03-09,,,isolated
+7447,,,Korea,,,,,,,,2020-03-09,,,isolated
+7448,,,Korea,,,,,,,,2020-03-09,,,isolated
+7449,,,Korea,,,,,,,,2020-03-09,,,isolated
+7450,,,Korea,,,,,,,,2020-03-09,,,isolated
+7451,,,Korea,,,,,,,,2020-03-09,,,isolated
+7452,,,Korea,,,,,,,,2020-03-09,,,isolated
+7453,,,Korea,,,,,,,,2020-03-09,,,isolated
+7454,,,Korea,,,,,,,,2020-03-09,,,isolated
+7455,,,Korea,,,,,,,,2020-03-09,,,isolated
+7456,,,Korea,,,,,,,,2020-03-09,,,isolated
+7457,,,Korea,,,,,,,,2020-03-09,,,isolated
+7458,,,Korea,,,,,,,,2020-03-09,,,isolated
+7459,,,Korea,,,,,,,,2020-03-09,,,isolated
+7460,,,Korea,,,,,,,,2020-03-09,,,isolated
+7461,,,Korea,,,,,,,,2020-03-09,,,isolated
+7462,,,Korea,,,,,,,,2020-03-09,,,isolated
+7463,,,Korea,,,,,,,,2020-03-09,,,isolated
+7464,,,Korea,,,,,,,,2020-03-09,,,isolated
+7465,,,Korea,,,,,,,,2020-03-09,,,isolated
+7466,,,Korea,,,,,,,,2020-03-09,,,isolated
+7467,,,Korea,,,,,,,,2020-03-09,,,isolated
+7468,,,Korea,,,,,,,,2020-03-09,,,isolated
+7469,,,Korea,,,,,,,,2020-03-09,,,isolated
+7470,,,Korea,,,,,,,,2020-03-09,,,isolated
+7471,,,Korea,,,,,,,,2020-03-09,,,isolated
+7472,,,Korea,,,,,,,,2020-03-09,,,isolated
+7473,,,Korea,,,,,,,,2020-03-09,,,isolated
+7474,,,Korea,,,,,,,,2020-03-09,,,isolated
+7475,,,Korea,,,,,,,,2020-03-09,,,isolated
+7476,,,Korea,,,,,,,,2020-03-09,,,isolated
+7477,,,Korea,,,,,,,,2020-03-09,,,isolated
+7478,,,Korea,,,,,,,,2020-03-09,,,isolated
+7479,,,Korea,,,,,,,,2020-03-09,,,isolated
+7480,,,Korea,,,,,,,,2020-03-09,,,isolated
+7481,,,Korea,,,,,,,,2020-03-09,,,isolated
+7482,,,Korea,,,,,,,,2020-03-09,,,isolated
+7483,,,Korea,,,,,,,,2020-03-09,,,isolated
+7484,,,Korea,,,,,,,,2020-03-09,,,isolated
+7485,,,Korea,,,,,,,,2020-03-09,,,isolated
+7486,,,Korea,,,,,,,,2020-03-09,,,isolated
+7487,,,Korea,,,,,,,,2020-03-09,,,isolated
+7488,,,Korea,,,,,,,,2020-03-09,,,isolated
+7489,,,Korea,,,,,,,,2020-03-09,,,isolated
+7490,,,Korea,,,,,,,,2020-03-09,,,isolated
+7491,,,Korea,,,,,,,,2020-03-09,,,isolated
+7492,,,Korea,,,,,,,,2020-03-09,,,isolated
+7493,,,Korea,,,,,,,,2020-03-09,,,isolated
+7494,,,Korea,,,,,,,,2020-03-09,,,isolated
+7495,,,Korea,,,,,,,,2020-03-09,,,isolated
+7496,,,Korea,,,,,,,,2020-03-09,,,isolated
+7497,,,Korea,,,,,,,,2020-03-09,,,isolated
+7498,,,Korea,,,,,,,,2020-03-09,,,isolated
+7499,,,Korea,,,,,,,,2020-03-09,,,isolated
+7500,,,Korea,,,,,,,,2020-03-09,,,isolated
+7501,,,Korea,,,,,,,,2020-03-09,,,isolated
+7502,,,Korea,,,,,,,,2020-03-09,,,isolated
+7503,,,Korea,,,,,,,,2020-03-09,,,isolated
+7504,,,Korea,,,,,,,,2020-03-09,,,isolated
+7505,,,Korea,,,,,,,,2020-03-09,,,isolated
+7506,,,Korea,,,,,,,,2020-03-09,,,isolated
+7507,,,Korea,,,,,,,,2020-03-09,,,isolated
+7508,,,Korea,,,,,,,,2020-03-09,,,isolated
+7509,,,Korea,,,,,,,,2020-03-09,,,isolated
+7510,,,Korea,,,,,,,,2020-03-09,,,isolated
+7511,,,Korea,,,,,,,,2020-03-09,,,isolated
+7512,,,Korea,,,,,,,,2020-03-09,,,isolated
+7513,,,Korea,,,,,,,,2020-03-09,,,isolated
+7514,,,Korea,,,,,,,,2020-03-10,,,isolated
+7515,,,Korea,,,,,,,,2020-03-10,,,isolated
+7516,,,Korea,,,,,,,,2020-03-10,,,isolated
+7517,,,Korea,,,,,,,,2020-03-10,,,isolated
+7518,,,Korea,,,,,,,,2020-03-10,,,isolated
+7519,,,Korea,,,,,,,,2020-03-10,,,isolated
+7520,,,Korea,,,,,,,,2020-03-10,,,isolated
+7521,,,Korea,,,,,,,,2020-03-10,,,isolated
+7522,,,Korea,,,,,,,,2020-03-10,,,isolated
+7523,,,Korea,,,,,,,,2020-03-10,,,isolated
+7524,,,Korea,,,,,,,,2020-03-10,,,isolated
+7525,,,Korea,,,,,,,,2020-03-10,,,isolated
+7526,,,Korea,,,,,,,,2020-03-10,,,isolated
+7527,,,Korea,,,,,,,,2020-03-10,,,isolated
+7528,,,Korea,,,,,,,,2020-03-10,,,isolated
+7529,,,Korea,,,,,,,,2020-03-10,,,isolated
+7530,,,Korea,,,,,,,,2020-03-10,,,isolated
+7531,,,Korea,,,,,,,,2020-03-10,,,isolated
+7532,,,Korea,,,,,,,,2020-03-10,,,isolated
+7533,,,Korea,,,,,,,,2020-03-10,,,isolated
+7534,,,Korea,,,,,,,,2020-03-10,,,isolated
+7535,,,Korea,,,,,,,,2020-03-10,,,isolated
+7536,,,Korea,,,,,,,,2020-03-10,,,isolated
+7537,,,Korea,,,,,,,,2020-03-10,,,isolated
+7538,,,Korea,,,,,,,,2020-03-10,,,isolated
+7539,,,Korea,,,,,,,,2020-03-10,,,isolated
+7540,,,Korea,,,,,,,,2020-03-10,,,isolated
+7541,,,Korea,,,,,,,,2020-03-10,,,isolated
+7542,,,Korea,,,,,,,,2020-03-10,,,isolated
+7543,,,Korea,,,,,,,,2020-03-10,,,isolated
+7544,,,Korea,,,,,,,,2020-03-10,,,isolated
+7545,,,Korea,,,,,,,,2020-03-10,,,isolated
+7546,,,Korea,,,,,,,,2020-03-10,,,isolated
+7547,,,Korea,,,,,,,,2020-03-10,,,isolated
+7548,,,Korea,,,,,,,,2020-03-10,,,isolated
+7549,,,Korea,,,,,,,,2020-03-10,,,isolated
+7550,,,Korea,,,,,,,,2020-03-10,,,isolated
+7551,,,Korea,,,,,,,,2020-03-10,,,isolated
+7552,,,Korea,,,,,,,,2020-03-10,,,isolated
+7553,,,Korea,,,,,,,,2020-03-10,,,isolated
+7554,,,Korea,,,,,,,,2020-03-10,,,isolated
+7555,,,Korea,,,,,,,,2020-03-10,,,isolated
+7556,,,Korea,,,,,,,,2020-03-10,,,isolated
+7557,,,Korea,,,,,,,,2020-03-10,,,isolated
+7558,,,Korea,,,,,,,,2020-03-10,,,isolated
+7559,,,Korea,,,,,,,,2020-03-10,,,isolated
+7560,,,Korea,,,,,,,,2020-03-10,,,isolated
+7561,,,Korea,,,,,,,,2020-03-10,,,isolated
+7562,,,Korea,,,,,,,,2020-03-10,,,isolated
+7563,,,Korea,,,,,,,,2020-03-10,,,isolated
+7564,,,Korea,,,,,,,,2020-03-10,,,isolated
+7565,,,Korea,,,,,,,,2020-03-10,,,isolated
+7566,,,Korea,,,,,,,,2020-03-10,,,isolated
+7567,,,Korea,,,,,,,,2020-03-10,,,isolated
+7568,,,Korea,,,,,,,,2020-03-10,,,isolated
+7569,,,Korea,,,,,,,,2020-03-10,,,isolated
+7570,,,Korea,,,,,,,,2020-03-10,,,isolated
+7571,,,Korea,,,,,,,,2020-03-10,,,isolated
+7572,,,Korea,,,,,,,,2020-03-10,,,isolated
+7573,,,Korea,,,,,,,,2020-03-10,,,isolated
+7574,,,Korea,,,,,,,,2020-03-10,,,isolated
+7575,,,Korea,,,,,,,,2020-03-10,,,isolated
+7576,,,Korea,,,,,,,,2020-03-10,,,isolated
+7577,,,Korea,,,,,,,,2020-03-10,,,isolated
+7578,,,Korea,,,,,,,,2020-03-10,,,isolated
+7579,,,Korea,,,,,,,,2020-03-10,,,isolated
+7580,,,Korea,,,,,,,,2020-03-10,,,isolated
+7581,,,Korea,,,,,,,,2020-03-10,,,isolated
+7582,,,Korea,,,,,,,,2020-03-10,,,isolated
+7583,,,Korea,,,,,,,,2020-03-10,,,isolated
+7584,,,Korea,,,,,,,,2020-03-10,,,isolated
+7585,,,Korea,,,,,,,,2020-03-10,,,isolated
+7586,,,Korea,,,,,,,,2020-03-10,,,isolated
+7587,,,Korea,,,,,,,,2020-03-10,,,isolated
+7588,,,Korea,,,,,,,,2020-03-10,,,isolated
+7589,,,Korea,,,,,,,,2020-03-10,,,isolated
+7590,,,Korea,,,,,,,,2020-03-10,,,isolated
+7591,,,Korea,,,,,,,,2020-03-10,,,isolated
+7592,,,Korea,,,,,,,,2020-03-10,,,isolated
+7593,,,Korea,,,,,,,,2020-03-10,,,isolated
+7594,,,Korea,,,,,,,,2020-03-10,,,isolated
+7595,,,Korea,,,,,,,,2020-03-10,,,isolated
+7596,,,Korea,,,,,,,,2020-03-10,,,isolated
+7597,,,Korea,,,,,,,,2020-03-10,,,isolated
+7598,,,Korea,,,,,,,,2020-03-10,,,isolated
+7599,,,Korea,,,,,,,,2020-03-10,,,isolated
+7600,,,Korea,,,,,,,,2020-03-10,,,isolated
+7601,,,Korea,,,,,,,,2020-03-10,,,isolated
+7602,,,Korea,,,,,,,,2020-03-10,,,isolated
+7603,,,Korea,,,,,,,,2020-03-10,,,isolated
+7604,,,Korea,,,,,,,,2020-03-10,,,isolated
+7605,,,Korea,,,,,,,,2020-03-10,,,isolated
+7606,,,Korea,,,,,,,,2020-03-10,,,isolated
+7607,,,Korea,,,,,,,,2020-03-10,,,isolated
+7608,,,Korea,,,,,,,,2020-03-10,,,isolated
+7609,,,Korea,,,,,,,,2020-03-10,,,isolated
+7610,,,Korea,,,,,,,,2020-03-10,,,isolated
+7611,,,Korea,,,,,,,,2020-03-10,,,isolated
+7612,,,Korea,,,,,,,,2020-03-10,,,isolated
+7613,,,Korea,,,,,,,,2020-03-10,,,isolated
+7614,,,Korea,,,,,,,,2020-03-10,,,isolated
+7615,,,Korea,,,,,,,,2020-03-10,,,isolated
+7616,,,Korea,,,,,,,,2020-03-10,,,isolated
+7617,,,Korea,,,,,,,,2020-03-10,,,isolated
+7618,,,Korea,,,,,,,,2020-03-10,,,isolated
+7619,,,Korea,,,,,,,,2020-03-10,,,isolated
+7620,,,Korea,,,,,,,,2020-03-10,,,isolated
+7621,,,Korea,,,,,,,,2020-03-10,,,isolated
+7622,,,Korea,,,,,,,,2020-03-10,,,isolated
+7623,,,Korea,,,,,,,,2020-03-10,,,isolated
+7624,,,Korea,,,,,,,,2020-03-10,,,isolated
+7625,,,Korea,,,,,,,,2020-03-10,,,isolated
+7626,,,Korea,,,,,,,,2020-03-10,,,isolated
+7627,,,Korea,,,,,,,,2020-03-10,,,isolated
+7628,,,Korea,,,,,,,,2020-03-10,,,isolated
+7629,,,Korea,,,,,,,,2020-03-10,,,isolated
+7630,,,Korea,,,,,,,,2020-03-10,,,isolated
+7631,,,Korea,,,,,,,,2020-03-10,,,isolated
+7632,,,Korea,,,,,,,,2020-03-10,,,isolated
+7633,,,Korea,,,,,,,,2020-03-10,,,isolated
+7634,,,Korea,,,,,,,,2020-03-10,,,isolated
+7635,,,Korea,,,,,,,,2020-03-10,,,isolated
+7636,,,Korea,,,,,,,,2020-03-10,,,isolated
+7637,,,Korea,,,,,,,,2020-03-10,,,isolated
+7638,,,Korea,,,,,,,,2020-03-10,,,isolated
+7639,,,Korea,,,,,,,,2020-03-10,,,isolated
+7640,,,Korea,,,,,,,,2020-03-10,,,isolated
+7641,,,Korea,,,,,,,,2020-03-10,,,isolated
+7642,,,Korea,,,,,,,,2020-03-10,,,isolated
+7643,,,Korea,,,,,,,,2020-03-10,,,isolated
+7644,,,Korea,,,,,,,,2020-03-10,,,isolated
+7645,,,Korea,,,,,,,,2020-03-10,,,isolated
+7646,,,Korea,,,,,,,,2020-03-10,,,isolated
+7647,,,Korea,,,,,,,,2020-03-10,,,isolated
+7648,,,Korea,,,,,,,,2020-03-10,,,isolated
+7649,,,Korea,,,,,,,,2020-03-10,,,isolated
+7650,,,Korea,,,,,,,,2020-03-10,,,isolated
+7651,,,Korea,,,,,,,,2020-03-10,,,isolated
+7652,,,Korea,,,,,,,,2020-03-10,,,isolated
+7653,,,Korea,,,,,,,,2020-03-10,,,isolated
+7654,,,Korea,,,,,,,,2020-03-10,,,isolated
+7655,,,Korea,,,,,,,,2020-03-10,,,isolated
+7656,,,Korea,,,,,,,,2020-03-10,,,isolated
+7657,,,Korea,,,,,,,,2020-03-10,,,isolated
+7658,,,Korea,,,,,,,,2020-03-10,,,isolated
+7659,,,Korea,,,,,,,,2020-03-10,,,isolated
+7660,,,Korea,,,,,,,,2020-03-10,,,isolated
+7661,,,Korea,,,,,,,,2020-03-10,,,isolated
+7662,,,Korea,,,,,,,,2020-03-10,,,isolated
+7663,,,Korea,,,,,,,,2020-03-10,,,isolated
+7664,,,Korea,,,,,,,,2020-03-10,,,isolated
+7665,,,Korea,,,,,,,,2020-03-10,,,isolated
+7666,,,Korea,,,,,,,,2020-03-10,,,isolated
+7667,,,Korea,,,,,,,,2020-03-10,,,isolated
+7668,,,Korea,,,,,,,,2020-03-10,,,isolated
+7669,,,Korea,,,,,,,,2020-03-10,,,isolated
+7670,,,Korea,,,,,,,,2020-03-10,,,isolated
+7671,,,Korea,,,,,,,,2020-03-10,,,isolated
+7672,,,Korea,,,,,,,,2020-03-10,,,isolated
+7673,,,Korea,,,,,,,,2020-03-10,,,isolated
+7674,,,Korea,,,,,,,,2020-03-10,,,isolated
+7675,,,Korea,,,,,,,,2020-03-10,,,isolated
+7676,,,Korea,,,,,,,,2020-03-10,,,isolated
+7677,,,Korea,,,,,,,,2020-03-10,,,isolated
+7678,,,Korea,,,,,,,,2020-03-10,,,isolated
+7679,,,Korea,,,,,,,,2020-03-10,,,isolated
+7680,,,Korea,,,,,,,,2020-03-10,,,isolated
+7681,,,Korea,,,,,,,,2020-03-10,,,isolated
+7682,,,Korea,,,,,,,,2020-03-10,,,isolated
+7683,,,Korea,,,,,,,,2020-03-10,,,isolated
+7684,,,Korea,,,,,,,,2020-03-10,,,isolated
+7685,,,Korea,,,,,,,,2020-03-10,,,isolated
+7686,,,Korea,,,,,,,,2020-03-10,,,isolated
+7687,,,Korea,,,,,,,,2020-03-10,,,isolated
+7688,,,Korea,,,,,,,,2020-03-10,,,isolated
+7689,,,Korea,,,,,,,,2020-03-10,,,isolated
+7690,,,Korea,,,,,,,,2020-03-10,,,isolated
+7691,,,Korea,,,,,,,,2020-03-10,,,isolated
+7692,,,Korea,,,,,,,,2020-03-10,,,isolated
+7693,,,Korea,,,,,,,,2020-03-10,,,isolated
+7694,,,Korea,,,,,,,,2020-03-10,,,isolated
+7695,,,Korea,,,,,,,,2020-03-10,,,isolated
+7696,,,Korea,,,,,,,,2020-03-10,,,isolated
+7697,,,Korea,,,,,,,,2020-03-10,,,isolated
+7698,,,Korea,,,,,,,,2020-03-10,,,isolated
+7699,,,Korea,,,,,,,,2020-03-10,,,isolated
+7700,,,Korea,,,,,,,,2020-03-10,,,isolated
+7701,,,Korea,,,,,,,,2020-03-10,,,isolated
+7702,,,Korea,,,,,,,,2020-03-10,,,isolated
+7703,,,Korea,,,,,,,,2020-03-10,,,isolated
+7704,,,Korea,,,,,,,,2020-03-10,,,isolated
+7705,,,Korea,,,,,,,,2020-03-10,,,isolated
+7706,,,Korea,,,,,,,,2020-03-10,,,isolated
+7707,,,Korea,,,,,,,,2020-03-10,,,isolated
+7708,,,Korea,,,,,,,,2020-03-10,,,isolated
+7709,,,Korea,,,,,,,,2020-03-10,,,isolated
+7710,,,Korea,,,,,,,,2020-03-10,,,isolated
+7711,,,Korea,,,,,,,,2020-03-10,,,isolated
+7712,,,Korea,,,,,,,,2020-03-10,,,isolated
+7713,,,Korea,,,,,,,,2020-03-10,,,isolated
+7714,,,Korea,,,,,,,,2020-03-10,,,isolated
+7715,,,Korea,,,,,,,,2020-03-10,,,isolated
+7716,,,Korea,,,,,,,,2020-03-10,,,isolated
+7717,,,Korea,,,,,,,,2020-03-10,,,isolated
+7718,,,Korea,,,,,,,,2020-03-10,,,isolated
+7719,,,Korea,,,,,,,,2020-03-10,,,isolated
+7720,,,Korea,,,,,,,,2020-03-10,,,isolated
+7721,,,Korea,,,,,,,,2020-03-10,,,isolated
+7722,,,Korea,,,,,,,,2020-03-10,,,isolated
+7723,,,Korea,,,,,,,,2020-03-10,,,isolated
+7724,,,Korea,,,,,,,,2020-03-10,,,isolated
+7725,,,Korea,,,,,,,,2020-03-10,,,isolated
+7726,,,Korea,,,,,,,,2020-03-10,,,isolated
+7727,,,Korea,,,,,,,,2020-03-10,,,isolated
+7728,,,Korea,,,,,,,,2020-03-10,,,isolated
+7729,,,Korea,,,,,,,,2020-03-10,,,isolated
+7730,,,Korea,,,,,,,,2020-03-10,,,isolated
+7731,,,Korea,,,,,,,,2020-03-10,,,isolated
+7732,,,Korea,,,,,,,,2020-03-10,,,isolated
+7733,,,Korea,,,,,,,,2020-03-10,,,isolated
+7734,,,Korea,,,,,,,,2020-03-10,,,isolated
+7735,,,Korea,,,,,,,,2020-03-10,,,isolated
+7736,,,Korea,,,,,,,,2020-03-10,,,isolated
+7737,,,Korea,,,,,,,,2020-03-10,,,isolated
+7738,,,Korea,,,,,,,,2020-03-10,,,isolated
+7739,,,Korea,,,,,,,,2020-03-10,,,isolated
+7740,,,Korea,,,,,,,,2020-03-10,,,isolated
+7741,,,Korea,,,,,,,,2020-03-10,,,isolated
+7742,,,Korea,,,,,,,,2020-03-10,,,isolated
+7743,,,Korea,,,,,,,,2020-03-10,,,isolated
+7744,,,Korea,,,,,,,,2020-03-10,,,isolated
+7745,,,Korea,,,,,,,,2020-03-10,,,isolated
+7746,,,Korea,,,,,,,,2020-03-10,,,isolated
+7747,,,Korea,,,,,,,,2020-03-10,,,isolated
+7748,,,Korea,,,,,,,,2020-03-10,,,isolated
+7749,,,Korea,,,,,,,,2020-03-10,,,isolated
+7750,,,Korea,,,,,,,,2020-03-10,,,isolated
+7751,,,Korea,,,,,,,,2020-03-10,,,isolated
+7752,,,Korea,,,,,,,,2020-03-10,,,isolated
+7753,,,Korea,,,,,,,,2020-03-10,,,isolated
+7754,,,Korea,,,,,,,,2020-03-10,,,isolated
+7755,,,Korea,,,,,,,,2020-03-10,,,isolated
