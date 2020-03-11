@@ -35,7 +35,7 @@
 * [국내 Covid-19 데이터 분석](https://github.com/kt3472/time-series/tree/master/covid19_south_korea)
 
   + Data Set : 2020년 2월 ~ 일별 국내 covid-19 현황 데이터(출처 : https://www.kaggle.com/kimjihoo/coronavirusdataset)  
-  + Environment : python 3.6 / plotly, pandas, numpy, matplotlib
+  + Environment : python 3.6 / plotly, pandas, numpy, matplotlib, sklearn, statsmodels
   + models : FaceBook Prophet, SVM, Linear Regression
 
 
