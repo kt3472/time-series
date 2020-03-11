@@ -36,7 +36,7 @@
 
   + Data Set : 2020년 2월 ~ 일별 국내 covid-19 현황 데이터(출처 : https://www.kaggle.com/kimjihoo/coronavirusdataset)  
   + Environment : python 3.6 / plotly, pandas, numpy, matplotlib
-  + models : MonteCarlo simulation
+  + models : FaceBook Prophet, SVM, Linear Regression
 
 
 ## 3. References
@@ -45,6 +45,7 @@
 * https://github.com/huseinzol05/Stock-Prediction-Models
 * https://github.com/gxercavins/time-series
 * https://somjang.tistory.com/
+* https://www.kaggle.com/ginajiyoungsong/prediction-by-prophet-mlp-lstm-etc-eda-analysis
 
 
 
