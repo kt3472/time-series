@@ -11,7 +11,7 @@
 
   + Data Set : 2018년 ~ 2019년 Bitcoin, Ethereum의 일자별 종가 데이터(출처 : coinmarketcap.com)
   + Environment : python 3.6 / tensorflow 1.3.0, pandas, numpy, matplotlib
-  + Models : LTSM, MonteCarlo simulation
+  + Models : LSTM, MonteCarlo simulation
   
 * [상장기업 신문기사의 감성분석을 통한 주가 예측 모델링](https://github.com/kt3472/time-series/tree/master/sentiment_analysis)
 
