@@ -15,7 +15,7 @@
   
 * [상장기업 신문기사의 감성분석을 통한 주가 예측 모델링](https://github.com/kt3472/time-series/tree/master/sentiment_analysis)
 
-  + Data Set : 2019년 10월 ~ 2020년 3월 상장기업 관련 신문기사/일자별 종가 데이터()  
+  + Data Set : 2019년 10월 ~ 2020년 3월 상장기업 관련 신문기사/일자별 종가 데이터(출처:Naver, FnGuide)  
   + Environment : python 3.6 / nltk, googletrans, tensorflow, beautifulsoup, pandas, numpy, matplotlib
   + Process : 언론기사 수집(Naver) -> 영어로 번역(GoogleTrans) -> 긍정/부정(NLTK) 확률 추출 및 입력변수로 사용 
   + Models : CNN
