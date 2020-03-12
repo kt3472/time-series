@@ -36,7 +36,7 @@
 
   + Data Set : 2020년 2월 ~ 일별 국내 covid-19 현황 데이터(출처 : https://www.kaggle.com/kimjihoo/coronavirusdataset)  
   + Environment : python 3.6 / plotly, pandas, numpy, matplotlib, sklearn, statsmodels
-  + models : FaceBook Prophet, SVM, Linear Regression
+  + models : FaceBook Prophet, SVM, Linear Regression, LSTM
 
 
 ## 3. References
