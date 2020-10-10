@@ -37,6 +37,13 @@
   + Data Set : 2020년 2월 ~ 일별 국내 covid-19 현황 데이터(출처 : https://www.kaggle.com/kimjihoo/coronavirusdataset)  
   + Environment : python 3.6 / plotly, pandas, numpy, matplotlib, sklearn, statsmodels
   + models : FaceBook Prophet, SVM, Linear Regression, LSTM
+  
+
+* [S&P500 이상 탐지](https://github.com/kt3472/time-series/tree/master/)
+
+  + Data Set :  1986.01 ~  2018.06 일별 S&P500 데이터
+  + Environment : python 3.6 / pandas, numpy, matplotlib, sklearn 
+  + models : LSTM AutoEncoder 
 
 
 ## 3. References
